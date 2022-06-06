@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ns.stockui.ChartController">
+    <LineChart fx:id="chart" prefHeight="600">
+        <xAxis>
+            <CategoryAxis label="Time" side="LEFT" />
+        </xAxis>
+        <yAxis>
+            <NumberAxis label="Price" />
+        </yAxis>
+    </LineChart>
+</VBox>
